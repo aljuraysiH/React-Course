@@ -1,0 +1,41 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.container {
+  position: relative;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  h2 {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+}
+
+.left {
+  cursor: pointer;
+  z-index: 500;
+  position: absolute;
+  top: 115px;
+  left: 0;
+}
+.right {
+  cursor: pointer;
+  z-index: 500;
+  position: absolute;
+  top: 115px;
+  right: 0;
+}
