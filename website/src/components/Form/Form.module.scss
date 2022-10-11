@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 40rem;
+  height: 30rem;
+  margin: 5rem auto 0;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    label {
+      font-size: 1.4rem;
+    }
+    input {
+      outline: none;
+      width: 20rem;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: lightcoral;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+}
